@@ -1,0 +1,265 @@
+@font-face{
+    font-family:"txt1";
+    src:url(../Fonts/MADE\ TOMMY\ Medium_PERSONAL\ USE.otf);
+
+}
+@font-face{
+font-family:"txt2" ;
+src: url(../Fonts/BodegaSans_Black.ttf);
+}
+body{
+background-image: url(../Images/background.jpg);
+}
+
+.navbar {
+overflow: hidden;
+background-color: #333;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 9999;
+}
+#divnav{
+display: flex;
+justify-content: flex-end;
+background-color: black;
+border-radius: 5px;
+height: 70px;
+}
+
+a > img{
+width: 80px;
+}
+
+a{
+font-family:"txt1"; 
+font-size: 1.2em;
+display: inline-block;
+text-decoration: none;
+margin-left: 20px;
+}
+
+a:first-child{
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+
+
+.mtop{
+    margin-top: 25px;
+    margin-right: 70px;
+    color: white;
+}
+.mtop:hover{
+    background-color: white;
+    color: black;
+    height: 30px;
+    border-radius: 3px;
+}
+
+.red{
+    border: solid 2px red;
+    border-radius: 5px;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-right: 70px;
+    background-color: black;
+}
+
+.red:hover{
+    background-color: red;
+}
+
+.lab1{
+    color: white;
+    margin-top: 25px;
+    margin-right: 70px;
+    font-family: "txt1";
+    font-size: 1.2em;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr 2fr);
+}
+
+.hhead{
+    color: white;
+    font-family: "txt1";
+    margin-top: 110px;
+    margin-left: 40px;
+}
+
+.shead{
+    color: white;
+    margin-top: 50px;
+    margin-left: 40px;
+    font-family: "txt1";
+}
+
+span{
+    color: red;
+}
+
+.edt{
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px red;
+    width: 100px;
+    background-color:black;
+    margin-top: 15px;
+    color: white;
+    margin-left: 300px;
+}
+
+.edt:hover{
+    background-color: red;
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+h1{
+    color: white;
+    font-family: "txt2";
+    text-align: center;
+    font-size: 3em;
+}
+
+
+.card{
+    display: grid;
+    grid-template-areas: "image" "text" "button";
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 70px;
+    padding: 5px;
+    grid-template-columns: repeat(1,1fr 2fr 3fr);
+    grid-template-rows: 100%;
+}
+
+.card-image{
+    grid-area: image;
+    width: 400px;
+    background-size: cover;
+}
+
+.pic{
+    margin-top: 100px;
+    width: 200px;
+    height: 150px;
+    margin-left: 400px;
+    border: solid 3px white;
+    border-radius: 20px;
+    object-fit: fill;
+}
+
+.card-text{
+    font-family: "txt1";
+    width: 800px;
+    height: 245px;
+    text-align: center;
+    margin-left: 30px;
+    color: black;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.text{
+    margin-left: 50px;
+}
+
+.card-button{
+    display: flex;
+    margin-top: 190px;
+}
+
+.card-button:first-child{
+    margin-bottom: 15px;
+}
+
+.supp{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+}
+
+.del{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: red;
+    border: red;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.del:hover{
+    color: red;
+    background-color: black;
+}
+
+
+
+.supp:hover{
+    color: red;
+    background-color: black;
+}
+
+h3{
+    color: white;
+    font-family: "txt2";
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.footer{
+    width: 200px;
+    margin-left: 654px;
+    margin-top: 20px;
+}
+
+
+.pfoot{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.copy{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 30px;
+    color: white;
+}
+
+
+footer{
+    background-color: black;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.allbtn{
+    font-size: 2em !important;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.logos{
+    text-align: center;
+}
